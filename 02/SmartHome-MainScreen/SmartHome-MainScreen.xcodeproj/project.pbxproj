@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71F580511BE06ED80077A383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F580501BE06ED80077A383 /* main.m */; };
+		71F580541BE06ED80077A383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F580531BE06ED80077A383 /* AppDelegate.m */; };
+		71F580571BE06ED80077A383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F580561BE06ED80077A383 /* ViewController.m */; };
+		71F5805A1BE06ED80077A383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F580581BE06ED80077A383 /* Main.storyboard */; };
+		71F5805C1BE06ED80077A383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F5805B1BE06ED80077A383 /* Assets.xcassets */; };
+		71F5805F1BE06ED80077A383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F5805D1BE06ED80077A383 /* LaunchScreen.storyboard */; };
+		71F5806A1BE06ED80077A383 /* SmartHome_MainScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F580691BE06ED80077A383 /* SmartHome_MainScreenTests.m */; };
+		71F580751BE06ED80077A383 /* SmartHome_MainScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F580741BE06ED80077A383 /* SmartHome_MainScreenUITests.m */; };
+		71F580881BE0C6860077A383 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F580861BE0C6860077A383 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		71F580891BE0C6860077A383 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F580871BE0C6860077A383 /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F580661BE06ED80077A383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F580441BE06ED80077A383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F5804B1BE06ED80077A383;
+			remoteInfo = "SmartHome-MainScreen";
+		};
+		71F580711BE06ED80077A383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F580441BE06ED80077A383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F5804B1BE06ED80077A383;
+			remoteInfo = "SmartHome-MainScreen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71F5804C1BE06ED80077A383 /* SmartHome-MainScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartHome-MainScreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F580501BE06ED80077A383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71F580521BE06ED80077A383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71F580531BE06ED80077A383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71F580551BE06ED80077A383 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71F580561BE06ED80077A383 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71F580591BE06ED80077A383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71F5805B1BE06ED80077A383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F5805E1BE06ED80077A383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F580601BE06ED80077A383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F580651BE06ED80077A383 /* SmartHome-MainScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartHome-MainScreenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F580691BE06ED80077A383 /* SmartHome_MainScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartHome_MainScreenTests.m; sourceTree = "<group>"; };
+		71F5806B1BE06ED80077A383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F580701BE06ED80077A383 /* SmartHome-MainScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartHome-MainScreenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F580741BE06ED80077A383 /* SmartHome_MainScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartHome_MainScreenUITests.m; sourceTree = "<group>"; };
+		71F580761BE06ED80077A383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F580851BE0C6860077A383 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		71F580861BE0C6860077A383 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		71F580871BE0C6860077A383 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F580491BE06ED80077A383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F580621BE06ED80077A383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F5806D1BE06ED80077A383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F580431BE06ED80077A383 = {
+			isa = PBXGroup;
+			children = (
+				71F5804E1BE06ED80077A383 /* SmartHome-MainScreen */,
+				71F580681BE06ED80077A383 /* SmartHome-MainScreenTests */,
+				71F580731BE06ED80077A383 /* SmartHome-MainScreenUITests */,
+				71F5804D1BE06ED80077A383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F5804D1BE06ED80077A383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F5804C1BE06ED80077A383 /* SmartHome-MainScreen.app */,
+				71F580651BE06ED80077A383 /* SmartHome-MainScreenTests.xctest */,
+				71F580701BE06ED80077A383 /* SmartHome-MainScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F5804E1BE06ED80077A383 /* SmartHome-MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				71F580521BE06ED80077A383 /* AppDelegate.h */,
+				71F580531BE06ED80077A383 /* AppDelegate.m */,
+				71F580551BE06ED80077A383 /* ViewController.h */,
+				71F580561BE06ED80077A383 /* ViewController.m */,
+				71F580851BE0C6860077A383 /* MainViewController.h */,
+				71F580861BE0C6860077A383 /* MainViewController.m */,
+				71F580871BE0C6860077A383 /* MainViewController.xib */,
+				71F580581BE06ED80077A383 /* Main.storyboard */,
+				71F5805B1BE06ED80077A383 /* Assets.xcassets */,
+				71F5805D1BE06ED80077A383 /* LaunchScreen.storyboard */,
+				71F580601BE06ED80077A383 /* Info.plist */,
+				71F5804F1BE06ED80077A383 /* Supporting Files */,
+			);
+			path = "SmartHome-MainScreen";
+			sourceTree = "<group>";
+		};
+		71F5804F1BE06ED80077A383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F580501BE06ED80077A383 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71F580681BE06ED80077A383 /* SmartHome-MainScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				71F580691BE06ED80077A383 /* SmartHome_MainScreenTests.m */,
+				71F5806B1BE06ED80077A383 /* Info.plist */,
+			);
+			path = "SmartHome-MainScreenTests";
+			sourceTree = "<group>";
+		};
+		71F580731BE06ED80077A383 /* SmartHome-MainScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71F580741BE06ED80077A383 /* SmartHome_MainScreenUITests.m */,
+				71F580761BE06ED80077A383 /* Info.plist */,
+			);
+			path = "SmartHome-MainScreenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F5804B1BE06ED80077A383 /* SmartHome-MainScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F580791BE06ED80077A383 /* Build configuration list for PBXNativeTarget "SmartHome-MainScreen" */;
+			buildPhases = (
+				71F580481BE06ED80077A383 /* Sources */,
+				71F580491BE06ED80077A383 /* Frameworks */,
+				71F5804A1BE06ED80077A383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartHome-MainScreen";
+			productName = "SmartHome-MainScreen";
+			productReference = 71F5804C1BE06ED80077A383 /* SmartHome-MainScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71F580641BE06ED80077A383 /* SmartHome-MainScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F5807C1BE06ED80077A383 /* Build configuration list for PBXNativeTarget "SmartHome-MainScreenTests" */;
+			buildPhases = (
+				71F580611BE06ED80077A383 /* Sources */,
+				71F580621BE06ED80077A383 /* Frameworks */,
+				71F580631BE06ED80077A383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F580671BE06ED80077A383 /* PBXTargetDependency */,
+			);
+			name = "SmartHome-MainScreenTests";
+			productName = "SmartHome-MainScreenTests";
+			productReference = 71F580651BE06ED80077A383 /* SmartHome-MainScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71F5806F1BE06ED80077A383 /* SmartHome-MainScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F5807F1BE06ED80077A383 /* Build configuration list for PBXNativeTarget "SmartHome-MainScreenUITests" */;
+			buildPhases = (
+				71F5806C1BE06ED80077A383 /* Sources */,
+				71F5806D1BE06ED80077A383 /* Frameworks */,
+				71F5806E1BE06ED80077A383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F580721BE06ED80077A383 /* PBXTargetDependency */,
+			);
+			name = "SmartHome-MainScreenUITests";
+			productName = "SmartHome-MainScreenUITests";
+			productReference = 71F580701BE06ED80077A383 /* SmartHome-MainScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F580441BE06ED80077A383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = chenyufengweb;
+				TargetAttributes = {
+					71F5804B1BE06ED80077A383 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FA2863D27N;
+					};
+					71F580641BE06ED80077A383 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FA2863D27N;
+						TestTargetID = 71F5804B1BE06ED80077A383;
+					};
+					71F5806F1BE06ED80077A383 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FA2863D27N;
+						TestTargetID = 71F5804B1BE06ED80077A383;
+					};
+				};
+			};
+			buildConfigurationList = 71F580471BE06ED80077A383 /* Build configuration list for PBXProject "SmartHome-MainScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F580431BE06ED80077A383;
+			productRefGroup = 71F5804D1BE06ED80077A383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F5804B1BE06ED80077A383 /* SmartHome-MainScreen */,
+				71F580641BE06ED80077A383 /* SmartHome-MainScreenTests */,
+				71F5806F1BE06ED80077A383 /* SmartHome-MainScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F5804A1BE06ED80077A383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F5805F1BE06ED80077A383 /* LaunchScreen.storyboard in Resources */,
+				71F5805C1BE06ED80077A383 /* Assets.xcassets in Resources */,
+				71F5805A1BE06ED80077A383 /* Main.storyboard in Resources */,
+				71F580891BE0C6860077A383 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F580631BE06ED80077A383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F5806E1BE06ED80077A383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F580481BE06ED80077A383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F580571BE06ED80077A383 /* ViewController.m in Sources */,
+				71F580541BE06ED80077A383 /* AppDelegate.m in Sources */,
+				71F580511BE06ED80077A383 /* main.m in Sources */,
+				71F580881BE0C6860077A383 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F580611BE06ED80077A383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F5806A1BE06ED80077A383 /* SmartHome_MainScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F5806C1BE06ED80077A383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F580751BE06ED80077A383 /* SmartHome_MainScreenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F580671BE06ED80077A383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F5804B1BE06ED80077A383 /* SmartHome-MainScreen */;
+			targetProxy = 71F580661BE06ED80077A383 /* PBXContainerItemProxy */;
+		};
+		71F580721BE06ED80077A383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F5804B1BE06ED80077A383 /* SmartHome-MainScreen */;
+			targetProxy = 71F580711BE06ED80077A383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71F580581BE06ED80077A383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F580591BE06ED80077A383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71F5805D1BE06ED80077A383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F5805E1BE06ED80077A383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F580771BE06ED80077A383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F580781BE06ED80077A383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F5807A1BE06ED80077A383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SmartHome-MainScreen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenyufengweb.SmartHome-MainScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71F5807B1BE06ED80077A383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SmartHome-MainScreen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenyufengweb.SmartHome-MainScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71F5807D1BE06ED80077A383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SmartHome-MainScreenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenyufengweb.SmartHome-MainScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHome-MainScreen.app/SmartHome-MainScreen";
+			};
+			name = Debug;
+		};
+		71F5807E1BE06ED80077A383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SmartHome-MainScreenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenyufengweb.SmartHome-MainScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHome-MainScreen.app/SmartHome-MainScreen";
+			};
+			name = Release;
+		};
+		71F580801BE06ED80077A383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SmartHome-MainScreenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenyufengweb.SmartHome-MainScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SmartHome-MainScreen";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		71F580811BE06ED80077A383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SmartHome-MainScreenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenyufengweb.SmartHome-MainScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SmartHome-MainScreen";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F580471BE06ED80077A383 /* Build configuration list for PBXProject "SmartHome-MainScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F580771BE06ED80077A383 /* Debug */,
+				71F580781BE06ED80077A383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F580791BE06ED80077A383 /* Build configuration list for PBXNativeTarget "SmartHome-MainScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F5807A1BE06ED80077A383 /* Debug */,
+				71F5807B1BE06ED80077A383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F5807C1BE06ED80077A383 /* Build configuration list for PBXNativeTarget "SmartHome-MainScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F5807D1BE06ED80077A383 /* Debug */,
+				71F5807E1BE06ED80077A383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F5807F1BE06ED80077A383 /* Build configuration list for PBXNativeTarget "SmartHome-MainScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F580801BE06ED80077A383 /* Debug */,
+				71F580811BE06ED80077A383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F580441BE06ED80077A383 /* Project object */;
+}
