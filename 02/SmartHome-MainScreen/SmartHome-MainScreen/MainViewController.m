@@ -18,15 +18,10 @@
 @implementation MainViewController
 
 - (void)viewDidLoad {
+
   [super viewDidLoad];
   //设置该页面导航栏的标题；
   self.title = @"第二页";
-  
-  
-  
 }
-
-
-
 
 @end

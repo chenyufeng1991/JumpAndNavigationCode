@@ -9,19 +9,15 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
-
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  
   //下面这句话不能少，否则所有的导航栏和按钮都会无效；
   [self.window makeKeyAndVisible];
-  
   //初始化第一个NavigationController
   self.viewController = [[ViewController alloc]init];
   self.naviController = [[UINavigationController alloc]initWithRootViewController:self.viewController];
@@ -29,7 +25,5 @@
   
   return YES;
 }
-
-
 
 @end
